@@ -1,0 +1,6 @@
+numfunc = int(input())
+horas = int(input())
+valhor = float(input())
+sal = (horas*valhor)
+print('NUMBER =',numfunc)
+print('SALARY = U$',format(sal,'.2f'))
