@@ -1,5 +1,5 @@
-raio = float(input())
+r = float(input())
 format(r,".2f")
 n = 3.14159
-area = n*r**2
-print('A='+format(area,'.4f'))
+a = n*r**2
+print('A='+format(a,'.4f'))
