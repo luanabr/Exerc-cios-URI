@@ -1,0 +1,5 @@
+nome = str(input())
+salfix = float(input())
+totvend = float(input())
+comiss = (((15/100)*totvend)+salfix)
+print("TOTAL = R$", format(comiss,'.2f'))
