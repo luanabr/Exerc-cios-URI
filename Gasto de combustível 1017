@@ -1,0 +1,5 @@
+tg = int(input())
+vm = int(input())
+L = (tg*vm)/12
+
+print(format(L,'.3f'))
