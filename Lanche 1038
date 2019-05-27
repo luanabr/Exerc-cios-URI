@@ -1,0 +1,6 @@
+val = input().split()
+cod, qte = val
+qte = int(qte)
+tab_preco = {"1":4.0, "2":4.5,"3":5.0,"4":2.0,"5":1.5}
+result = qte * tab_preco[cod]
+print('Total: R$ %.2f' %result)
